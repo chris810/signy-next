@@ -1,0 +1,35 @@
+.carouselContainer {
+    z-index: 1;
+    background-color: var(--dark-yellow);
+}
+
+.introduction {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.introductionImageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introductionImage {
+    height: 10rem;
+    width: 10rem;
+}
+
+.introductionTextContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.introductionText {
+    text-align: center;
+}
