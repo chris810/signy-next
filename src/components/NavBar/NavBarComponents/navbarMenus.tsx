@@ -43,7 +43,7 @@ export default function NavBarMenus(props: {
     return (
         <ul ref={dropdown} className={listStyle}>
             {navBarMenus.map((menu) => 
-                <li className={styles.item}>
+                <li className={styles.item} key={menu.displayName}>
                     <Link href={menu.href}>{menu.displayName}</Link>
                 </li>
             )}
