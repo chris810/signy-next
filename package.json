@@ -13,6 +13,8 @@
     "@mediapipe/drawing_utils": "^0.3.1675466124",
     "@mediapipe/hands": "^0.4.1675469240",
     "@next/font": "13.1.6",
+    "@tensorflow/tfjs": "^4.2.0",
+    "@tensorflow/tfjs-tflite": "^0.0.1-alpha.9",
     "@types/node": "18.11.19",
     "@types/react": "18.0.27",
     "@types/react-dom": "18.0.10",
