@@ -27,7 +27,7 @@ export async function loadModel() {
     return result;
 }
 // Next two functions are for preprocessing the landmarks passed to the model
-export function calc_landmark_list(
+export function calcLandmarkList(
     landmarks: any,
     width: number,
     height: number
@@ -43,7 +43,7 @@ export function calc_landmark_list(
     return landmark_points;
 }
 
-export function pre_process_landmarks(landmark_list: any[]) {
+export function preProcessLandmarks(landmark_list: any[]) {
     let base_x;
     let base_y;
 
