@@ -16,15 +16,15 @@ export type NavBarMenu = {
 const navBarMenus: NavBarMenu[] = [
     {
         displayName: 'Games',
-        href: 'games',
+        href: '/games',
     },
     {
         displayName: 'Sign In',
-        href: 'signIn'
+        href: '/signIn'
     },
     {
         displayName: 'About',
-        href: 'about'
+        href: '/about'
     },
 ];
 
@@ -39,20 +39,20 @@ export default function NavBar() {
             </Link>
             <div className={styles.navigationMenu}>
                 <NavBarMenus
-                navBarMenus={navBarMenus}
-                isNavExpanded={isNavExpanded}
-                setIsNavExpanded={setIsNavExpanded}
-                hamburgerRef={hamburgerRef}
+                    navBarMenus={navBarMenus}
+                    isNavExpanded={isNavExpanded}
+                    setIsNavExpanded={setIsNavExpanded}
+                    hamburgerRef={hamburgerRef}
                 />
-                <Image 
+                <Image
                     className={styles.hamburger}
                     ref={hamburgerRef}
                     src={Hamburger}
                     alt="..."
-                    onClick= {() => setIsNavExpanded(!isNavExpanded)}
+                    onClick={() => setIsNavExpanded(!isNavExpanded)}
                 />
             </div>
-            
+
         </nav>
     )
 }

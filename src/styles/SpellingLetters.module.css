@@ -1,0 +1,12 @@
+.left {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    flex: 1;
+    align-content: space-between;
+    max-width: 50%;
+    height: 100%;
+    align-content: flex-start;
+
+}
