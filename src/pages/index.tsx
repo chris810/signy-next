@@ -1,12 +1,11 @@
-import Head from 'next/head'
+import React from 'react'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import Layout from '@/components/Layout/layout'
 import HomeCarousel from '@/components/Carousel/carousel'
+import SignyLogo from '../../public/signy-cropped.svg'
 
-import SignyLogo from '../../public/signy-cropped.svg';
-
-export default function Home() {
+export default function Home (): JSX.Element {
   return (
     <Layout>
     <div className={styles.carouselContainer}>
@@ -18,11 +17,11 @@ export default function Home() {
         <div className={styles.introductionTextContainer}>
           <h1>We are Signy</h1>
           <p className={styles.introductionText}>A US based digital games and educational website. We develop, publish and distribute games with the purpose of making learning fun. Our primary focus in the present is to help spread awareness of the ASL community.</p>
-          <button>Know More</button>        
+          <button>Know More</button>
         </div>
       </div>
     </div>
-    
+
     </Layout>
   )
 }
