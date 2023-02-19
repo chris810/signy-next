@@ -6,6 +6,9 @@
     align-items: center;
     justify-content: flex-end;
     color: var(--dark-blue);
+    position: fixed;
+    z-index: 1;
+    opacity: 0.93;
 }
 
 .navigationMenu {
