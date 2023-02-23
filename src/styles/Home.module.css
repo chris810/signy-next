@@ -1,6 +1,5 @@
 .carouselContainer {
     z-index: 1;
-    background-color: var(--dark-yellow);
 }
 
 .introduction {
@@ -14,16 +13,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
+    width: 100%;
 }
 
 .introductionImage {
-    height: 10rem;
-    width: 10rem;
+    height: 9rem;
+    width: 9rem;
 }
 
 .introductionTextContainer {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     height: 100%;
     width: 100%;
@@ -32,4 +33,5 @@
 
 .introductionText {
     text-align: center;
+    margin-bottom: 0.5rem;
 }

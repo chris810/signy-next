@@ -9,7 +9,13 @@ import styles from './carousel.module.css'
 
 export default function HomeCarousel (): JSX.Element {
   return (
-        <Carousel className={styles.carousel}>
+        <Carousel 
+            className={styles.carousel}
+            showStatus={false}
+            showArrows={false}
+            autoPlay={true}
+            infiniteLoop={true}
+        >
             <div>
                 <Image className={styles.image} src={Cloudy} alt='Signy Logo'/>
                 <p className="legend">Legend 1</p>
